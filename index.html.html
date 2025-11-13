@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmental health programme</title>
+    <link rel="stylesheet" href="pro.css">
+</head>
+<body>
+    <h1>Gmental health programme</h1>
+    <h2>All your mental health needs in one place</h2>
+    <p>Depressed, stressed,anxious,sad or just feeling down?Gmental health programme takes care of all 
+        your mental health needs.Dont stress it.No signup needed except if you want to save your progress
+    </p>
+    <img class="pic1" src="Capture.PNG">
+    <img class="pic2" src="Capture2.PNG">
+    <button id="getstarted">Get started</button>
+ <div id="test1" class="hidden"><h3 class="ifeel">1. I feel:</h3>
+<input id="f1" class="agree" type="checkbox" value="anxiety"> <label for='f1' >anxiety</label><br>
+<input id="f2"  class="agree" type="checkbox" value="depressed"></body><label for="f2" >depressed</label></br>
+<input id="f3"  class="agree" type="checkbox" value="failing"> <label for="f3" >like a failure</label><br>
+<input id="f5"  class="agree" type="checkbox" value="lonely"><label for="f5" >lonely</label><br>
+<input id="f6"  class="agree" type="checkbox" value="guilt"><label for="f6" >guilt/shame</label><br>
+<input id="f7"  class="agree" type="checkbox" value="fear"> <label for="f7">fear</label><br>
+<input id="f8"  class="agree" type="checkbox" value="anger"><label for="f8">anger</label><br>
+ <input id="f9"  class="agree" type="checkbox" value="other"> <label  for="f9">other</label><br>
+<p>because of:</p><input type="text" placeholder="enter text"><br>
+<button id="submitbtn1">submit</button>
+<p id="msg"></p>
+<h1>2. how do you describe yourself</h1>
+<h1>I am characterised by;</h1>
+<p>choose <strong>ONE</strong> in each category</p>
+<h2>personality traits</h2>
+<p id="click">click the circle</p>
+     <input class="agree" type="radio" name="card"><label>A. Introverted _ I recharge by being alone</label><br>
+ <input class="agree" type="radio" name="card"><label>B. Extroverted _ I gain energy from social interaction</label><br>
+<input class="agree" type="radio"name="card"><label>C. Optimistic _ I tend to see the positive side</label><br>
+<input class="agree"  type="radio"name="card"><label>D. Pessimistic _ I tend to worry or expect the worst</label><br>
+<input class="agree" type="radio"name="card"><label>E. Balanced _ I feel comfortable both alone and with others</label><br>
+<button id="submitbtn2">submit</button><p id="msg2"></p>
+<h1>rate your feelings</h1>
+<input id="searchbox" type="text" placeholder="search"><button id="search">submit</button><p id="par"></p>
+<p>in the box  describe your stress levels on a scale of one to ten</p>
+<p>after this you will be asked why if you wish not to resond type e</p>
+<div><button id="results">results</button><p>&#128077; &#127881</p></div></div>
+<div id="resultsOutput"></div>
+<button id="openJournalBtn">📓 Open Journal</button>
+
+<div id="journalContainer" class="hidden">
+  <h3>My Journal</h3>
+  
+  <textarea id="journalInput" placeholder="Write your thoughts here..."></textarea>
+  <br>
+  <button id="saveEntryBtn">💾 Save Entry</button>
+  
+  <h4>Previous Entries:</h4>
+  <ul id="journalList"></ul>
+</div>
+<button id="startQuizBtn">📝 Start Personality Test</button>
+
+<div id="quizContainer" class="hidden">
+  <h3>Personality Test</h3>
+  <p id="questionText"></p>
+  <div id="optionsContainer"></div>
+  <button id="nextBtn">Next Question</button>
+  <p id="quizResult"></p>
+</div>
+<button id="showQuoteBtn">✨ Show Daily Quote</button>
+
+<div id="quoteContainer" class="hidden">
+  <p id="quoteText"></p>
+  <button id="nextQuoteBtn">Next Quote</button>
+</div>
+<script src="pro.js"></script>
+</body> 
+</html>
